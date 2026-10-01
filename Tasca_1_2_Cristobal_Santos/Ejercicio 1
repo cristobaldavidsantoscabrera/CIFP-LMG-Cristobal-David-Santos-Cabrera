@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SociosGimnacio> 
+<socio id="1"> 
+<Nom>Miquel</Nom> 
+<Cognom>Pons</Cognom> 
+<DNI>45633875F</DNI> 
+<Mail>miquelpons@gmail.com</Mail> 
+</socio> 
+<socio id="2"> 
+<Nom>Joan</Nom> 
+<Cognom>Ribes</Cognom> 
+<DNI>97458352S</DNI> 
+<Mail>joanribes@gmail.com</Mail> 
+</socio> 
+<socio id="3"> 
+<Nom>María</Nom> 
+<Cognom>Puig</Cognom> 
+<DNI>68411452W</DNI> 
+<Mail>mariapuig@gmail.com</Mail> 
+</socio> 
+</SociosGimnacio>

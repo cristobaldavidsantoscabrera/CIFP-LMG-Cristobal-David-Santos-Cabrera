@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Catalog> 
+ <movie id="P01"> 
+     <title>Pan’s Labyrinth</title> 
+     <year>2006</year> 
+     <genre>Fantasy</genre> 
+     <duration unit="min">118</duration> 
+     <actors> 
+        <name>Ivana</name> 
+        <lastname>Baquero</lastname> 
+        <name>Sergi</name> 
+        <lastname>López</lastname> 
+     </actors> 
+</movie> 
+ <movie id="P02"> 
+     <title>Dead Poets Society</title> 
+     <year>1989</year> 
+     <genre>Drama</genre> 
+     <duration unit="min">128</duration> 
+     <actors> 
+        <name>Robin</name> 
+        <lastname>Williams</lastname> 
+        <name>Ethan</name> 
+        <lastname>Hawke</lastname> 
+        <name>Robert Sean</name> 
+        <lastname>Leonard</lastname> 
+     </actors> 
+</movie> 
+ <movie id="P03"> 
+     <title>Interstellar</title> 
+     <year>2014</year> 
+     <genre>Science fiction</genre> 
+     <duration unit="min">169</duration> 
+     <actors> 
+        <name>Matthew</name> 
+        <lastname>McConaughey</lastname> 
+        <name>Anne</name> 
+        <lastname>Hathaway</lastname> 
+     </actors> 
+</movie> 
+</Catalog> 
+ 

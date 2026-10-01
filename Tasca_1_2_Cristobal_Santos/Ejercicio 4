@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<animales> 
+<especie ID="01"> 
+<nombre>Tiburón blanco</nombre> 
+<tipo>Pez</tipo> 
+<habitat>Oceánico</habitat> 
+<tamaño unidad="metros">6.4 de largo</tamaño> 
+<peso unidad="kilogramos">1900</peso> 
+<estadodeconservación>En peligro de extinción</estadodeconservación> 
+<caracteristicas> 
+<alimentación>Depredador superior</alimentación> 
+<distintivo>Temido en los océanos por su tamaño y ferocidad</distintivo> 
+</caracteristicas> 
+</especie> 
+<especie ID="02"> 
+<nombre>Ballena azul</nombre> 
+<tipo>Mamífero marino</tipo> 
+<habitat>Oceánico</habitat> 
+<tamaño unidad="metros">30 de longitud</tamaño> 
+<peso unidad="kilogramos">200.000</peso> 
+<estadodeconservación>En peligro crítico</estadodeconservación> 
+<caracteristicas> 
+<alimentación>Se alimenta principalmente de kill</alimentación> 
+<distintivo>El animal más grande del planeta</distintivo> 
+</caracteristicas> 
+</especie> 
+<especie ID="03"> 
+<nombre>Tortuga verde</nombre> 
+<tipo>Reptil</tipo> 
+<habitat>Marino</habitat> 
+<tamaño unidad="metros">1,5 de longitud</tamaño> 
+<peso unidad="kilogramos">150</peso> 
+<estadodeconservación>Vulnerable</estadodeconservación> 
+<caracteristicas> 
+<alimentación>Se alimenta principalmente de algas marinas</alimentación> 
+<distintivo>Realiza migraciones de miles de kilómetros</distintivo> 
+</caracteristicas> 
+</especie> 
+</animales>
