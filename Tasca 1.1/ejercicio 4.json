@@ -1,5 +1,6 @@
 {
-	"animales":[{
+	"animales":[
+			{
 		"nombre":"tauro blanc",
 		"tipus":"peix",
 		"hàbitat":"oceànic",
@@ -9,7 +10,7 @@
 			},
 		"estat_de_conservacio":"En perill",
 		"caracteristiques":["depredador superior","temut als oceans per la seva grandarria"]},
-		{
+			{
 		"nombre":"balena blava",
 		"tipus":"mamifer mari",
 		"hàbitat":"oceànic",
@@ -19,7 +20,7 @@
 			},
 		"estat_de_conservacio":"En perill critic",
 		"caracteristiques":["L'animal més gran del planeta","S'alimenta principalment de krill"]},
-		{
+			{
 		"nombre":"tortuga verda",
 		"tipus":"reptil",
 		"hàbitat":"mari",
@@ -29,6 +30,6 @@
 			},
 		"estat_de_conservacio":"En perill",
 		"caracteristiques":["S'alimenta principalment d'algues marines","Realitza migracions de milers de quilòmetres"]
-		}
+			}
 		]
 }
