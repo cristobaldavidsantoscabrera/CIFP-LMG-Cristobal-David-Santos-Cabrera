@@ -1,0 +1,43 @@
+{
+  "escola": "Pau Casesnoves",
+  "taula d'estudiants": [
+    {
+	"id": "201",
+	"nom": "Anna",
+	"cognom": "Serra",
+	"email": "anna@example.com"
+    },
+    {
+	"id": "202",
+	"nom": "Biel",
+	"cognom": "Amegual",
+	"email": "biel@example.com"
+    },
+    {
+	"id": "203",
+	"nom": "Joab",
+	"cognom": "Garcia",
+	"email": "joan@example.com"
+    }
+  ],
+"taula de matriculacions":[
+	{
+	"id":"601",
+	"studentID":"201",
+	"modul":"M06",
+	"nota":8.5
+	},
+	{
+	"id":"602",
+	"studentID":"202",
+	"modul":"M06",
+	"nota":9.2
+	},
+	{
+	"id":"603",
+	"studentID":"203",
+	"modul":"M06",
+	"nota":7.9
+	}
+]
+}
