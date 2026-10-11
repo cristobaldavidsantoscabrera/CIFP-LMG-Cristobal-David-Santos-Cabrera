@@ -1,0 +1,28 @@
+{
+	"encuesta":{
+	"id":27,
+	"activa":false,
+	"titulo":"Evaluación de percepción de anuncios",
+	"Instrucciones":"Favor de contestar las siguientes preguntas",
+	"preguntas":[
+		{
+		"n":1,
+		"tipo":"texto_libre",
+		"texto":"¿Con qué frecuencia ve anuncios en la calle y cual ve más?",
+		"respuesta":null
+		},
+		{
+		"n":2,
+		"tipo":"texto_libre",
+		"texto":"¿Qué anuncio vió que lo hizo adquirir el producto de inmediato?",
+		"respuesta":null
+		},
+		{
+		"n":3,
+		"tipo":"opcion_multiple",
+		"texto":"¿Como considera los anuncios en plataformas de video?",
+		"opciones":["Divertidos","Comodos","Desagradables"]
+		}
+	]
+ }
+}
