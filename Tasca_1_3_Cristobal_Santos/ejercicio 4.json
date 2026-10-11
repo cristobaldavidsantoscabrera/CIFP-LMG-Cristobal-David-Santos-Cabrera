@@ -9,7 +9,11 @@
 			"quilograms":1900
 			},
 		"estat_de_conservacio":"En perill",
-		"caracteristiques":["depredador superior","temut als oceans per la seva grandarria"]
+		"caracteristiques":
+				[
+				"Depredador superior",
+				"Temut als oceans per la seva grandarria"
+				]
 			},
 			{
 		"nombre":"balena blava",
@@ -20,7 +24,11 @@
 			"quilograms":200000
 			},
 		"estat_de_conservacio":"En perill critic",
-		"caracteristiques":["L'animal més gran del planeta","S'alimenta principalment de krill"]
+		"caracteristiques":
+				[
+				"L'animal més gran del planeta",
+				"S'alimenta principalment de krill"
+				]
 			},
 			{
 		"nombre":"tortuga verda",
@@ -31,7 +39,11 @@
 			"quilograms":150
 			},
 		"estat_de_conservacio":"En perill",
-		"caracteristiques":["S'alimenta principalment d'algues marines","Realitza migracions de milers de quilòmetres"]
+		"caracteristiques":
+				[
+				"S'alimenta principalment d'algues marines",
+				"Realitza migracions de milers de quilòmetres"
+				]
 			}
 		]
 }
