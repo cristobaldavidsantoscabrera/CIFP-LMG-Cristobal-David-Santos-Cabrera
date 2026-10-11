@@ -1,0 +1,28 @@
+{
+	"encuesta":{
+	"id":17,
+	"activa":true,
+	"titulo":"Encuesta de satisfacción del cliente Intel",
+	"Instrucciones":"Favor de contestar las siguientes preguntas",
+	"preguntas":[
+		{
+		"n":1,
+		"tipo":"texto_libre",
+		"texto":"Escriba el nombre de la sucursal (vease ticket)",
+		"respuesta":null
+		},
+		{
+		"n":2,
+		"tipo":"texto_libre",
+		"texto":"¿Por qué escogió nuestra marca?",
+		"respuesta":null
+		},
+		{
+		"n":3,
+		"tipo":"opcion_multiple",
+		"texto":"¿Cómo calificaría el servicio brindado?",
+		"opciones":["Excelente","Bueno","Regular","Malo"]
+		}
+	]
+ }
+}
