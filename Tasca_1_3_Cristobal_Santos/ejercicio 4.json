@@ -9,7 +9,8 @@
 			"quilograms":1900
 			},
 		"estat_de_conservacio":"En perill",
-		"caracteristiques":["depredador superior","temut als oceans per la seva grandarria"]},
+		"caracteristiques":["depredador superior","temut als oceans per la seva grandarria"]
+			},
 			{
 		"nombre":"balena blava",
 		"tipus":"mamifer mari",
@@ -31,9 +32,7 @@
 			"quilograms":150
 			},
 		"estat_de_conservacio":"En perill",
-		"caracteristiques":
-[
-"S'alimenta principalment d'algues marines","Realitza migracions de milers de quilòmetres"]
+		"caracteristiques":["S'alimenta principalment d'algues marines","Realitza migracions de milers de quilòmetres"]
 			}
 		]
 }
