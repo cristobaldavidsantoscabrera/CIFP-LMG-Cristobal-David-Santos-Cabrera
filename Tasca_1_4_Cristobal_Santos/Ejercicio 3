@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<paucasesnoves>
+    <ciclofp>
+        <area>
+            <nombrearea>Informatica</nombrearea>
+            <fp>
+              <nombreFP>ASIX</nombreFP>
+                <modulo>
+                     <nombremodul>Lenguajes de Marca y Sistemas de Gestion de la Información</nombremodul>
+                     <fechainicio>25 de septiembre de 2023</fechainicio>
+                     <fechafin>30 de junio de 2024</fechafin>
+                     <horassemana>4</horassemana>
+                     <obligatorio>Si</obligatorio>
+                     <estudiantes>
+                            <estudiante id="1">
+                                  <nombre>Carles</nombre>
+                                  <apellidos>Canals Gozálvez</apellidos>
+                                  <nif>12345678A</nif>
+                                  <telefono>971 00 00 00</telefono>
+                                  <correoelectronico>cgc@paucasesnovescifp.cat</correoelectronico>
+                                  <direccion>
+                                      <calle>C/ Sense Nombre</calle>
+                                      <numero>1</numero>
+                                      <ciudad>Inca</ciudad>
+                                      <codigopostal>07300</codigopostal>
+                                  </direccion>
+                                  <ausencias>10</ausencias>
+                                  <nota>No adecuada</nota>
+                            </estudiante>
+                            <estudiante id="2">
+                                  <nombre>Joana</nombre>
+                                  <apellidos>Quetglas Caimari</apellidos>
+                                  <nif>87654321Z</nif>
+                                  <telefono>971 12 34 56</telefono>
+                                  <correoelectronico>qcj@paucasesnovescifp.cat</correoelectronico>
+                                  <direccion>
+                                      <calle>C/ Sense Sortida</calle>
+                                      <numero>3</numero>
+                                      <ciudad>Sóller</ciudad>
+                                      <codigopostal>07100</codigopostal>
+                                  </direccion>
+                                  <ausencias>0</ausencias>
+                                  <nota>aprobado</nota>
+                            </estudiante>
+                     </estudiantes>
+                </modulo>
+                </fp>
+              </area>
+        </ciclofp>
+</paucasesnoves>

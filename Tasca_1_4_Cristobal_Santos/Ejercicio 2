@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<correoelectronic>
+         <asunto>Notas de la presentacio d'ahir</asunto>
+         <remitente>
+           <correo>cgc@paucasesnovescip.cat</correo>
+           <nom>Carles</nom>
+           <cognom>Canals</cognom>
+         </remitente>
+         <destinatario>per a mi</destinatario>
+         <copiaa>
+             <nom>Alumnat</nom>
+             <correo>alumnat@paucasesnovescifp.cat</correo>
+         </copiaa>
+           <info>
+               <saludo>Hola, bon día!</saludo>
+               <cuerpo>Gracies per la vostra asistencia a la presentacip d'ahir sobre el continguts de l'assignatura. Esper haver resolt els vostres dubtes. Adjuntes, estan les meves notes sobre la presentacio, per si desutgeu compartir-les amb els alumnes que no hi van poder assistir</cuerpo>
+               <cierre>¡Gracies a tots i totes! Carles Canals</cierre>
+               <firma>
+                   <nom>Carles</nom>
+                   <cognom>Canals</cognom>
+                   <carrer>Professor del Departament d'informatica del CIFP Pau Casesnoves</carrer>
+               </firma>
+           </info>
+       <adjuntos>
+           <fitxer>notes-presentacio.pdf</fitxer>
+            <mida>30K</mida>
+       </adjuntos>
+         <actionsInterfaz>Send</actionsInterfaz>
+         <actionsInterfaz>Más</actionsInterfaz>
+         <actionsInterfaz>Subrayar</actionsInterfaz>
+         <actionsInterfaz>Adjuntar</actionsInterfaz>
+         <actionsInterfaz>Enlace</actionsInterfaz>
+         <actionsInterfaz>Emojis</actionsInterfaz>
+         <actionsInterfaz>Drive</actionsInterfaz>
+         <actionsInterfaz>Imagenes</actionsInterfaz>
+         <actionsInterfaz>Programar</actionsInterfaz>
+         <actionsInterfaz>Borrar</actionsInterfaz>
+         <actionsInterfaz>Opciones</actionsInterfaz>
+         <actionsInterfaz>Papelera</actionsInterfaz>
+</correoelectronic>

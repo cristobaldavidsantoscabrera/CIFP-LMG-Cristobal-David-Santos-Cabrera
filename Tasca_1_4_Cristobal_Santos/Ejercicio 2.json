@@ -1,0 +1,47 @@
+{
+	"correoelectronic":{
+	"asunto":"Notas de la presentacio d'ahir",
+	"remitente":{
+		"correo":"cgc@paucasesnovescifp.cat",
+		"nom":"Carles",
+		"cognom":"Canals"
+			},
+	"destinatari":"Per a mi",
+		"copiaa":[
+		 {
+		"nom":"Alumnat",
+		"correo":"alumnat@paucasesnovescifp.cat"
+		  }
+		],
+			"info":{
+				"saludo":"Hola, bon día!",
+				"cuerpo":"Gracies per la vostra asistencia a la presentacip d'ahir sobre el continguts de l'assignatura. Esper haver resolt els vostres dubtes. Adjuntes, estan les meves notes sobre la presentacio, per si desutgeu compartir-les amb els alumnes que no hi van poder assistir",
+				"cierre":"¡Gracies a tots i totes! Carles Canals",
+				"firma":{
+				"nom":"Carles", 
+				"cognom":"Canals",
+				"carrer":"Professor del Departament d'informatica del CIFP Pau Casesnoves"
+				  }
+				},
+		"adjuntos":[
+			{
+			"fitxer":"notes-presentacio.pdf",
+			"mida":"30K"
+			}
+				],
+		"actionsInterfaz":[
+			"Send",
+			"Más",
+			"Subrayar",
+			"Adjuntar",
+			"Enlace",
+			"Emojis",
+			"Drive",
+			"Imagenes",
+			"Programar",
+			"Borrar",
+			"Opciones",
+			"Papelera"
+			]
+	}
+}

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+    <num>001</num>
+       <dadesempresa>
+              <nom>Empresa fícticia</nom>
+              <adreca>
+                    <carrer>Carrer Desconegut</carrer>
+                    <nombre>1</nombre>
+                    <ciutat>Palma</ciutat>
+                    <codiPostal>07001</codiPostal>
+              </adreca>
+              <CIF>Q282600</CIF>
+              <telefon>971 12 34 56</telefon>
+              <fax>971 98 76 54</fax>
+              <data>21-10-2022</data>
+              <comanda>1</comanda>
+              <formadpagament>EFECTIU</formadpagament>
+       </dadesempresa>
+       <dadesclient>
+                 <numclient>001</numclient>
+                 <nom>Carles</nom>
+                 <cognom>Canals Gozálvez</cognom>
+                 <adresaenviament>
+                         <carrer>Carrer Major</carrer>
+                         <nombre>1</nombre>
+                         <ciutat>Inca</ciutat>
+                         <codi>07300</codi>
+                         <provincia>Illes Balears</provincia>
+                </adresaenviament>
+       </dadesclient>
+         <dadeslinia>
+                     <ref>MII001F</ref>
+                     <descripcio>MICRO PENTIUM IV 3000MHZ</descripcio>
+                     <cant>1</cant>
+                     <preu moneda="euro">250</preu>
+                     <IVAPercentatge>16,0</IVAPercentatge>
+                     <import moneda="euro">266.80</import>
+         </dadeslinia>
+         <dadeslinia>
+                     <ref>MB003</ref>
+                     <descripcio>PLACA BASE QDI P4</descripcio>
+                     <cant>1</cant>
+                     <preu moneda="euro">180</preu>
+                     <IVAPercentatge>16,0</IVAPercentatge>
+                     <import moneda="euro">208.80</import>
+         </dadeslinia>
+         <dadeslinia>
+                     <ref>MED876</ref>
+                     <descripcio>DIMM DDR 512MB 3200</descripcio>
+                     <cant>2</cant>
+                     <preu moneda="euro">40</preu>
+                     <IVAPercentatge>16,0</IVAPercentatge>
+                     <import moneda="euro">92.80</import>
+         </dadeslinia>
+         <dadeslinia>
+                     <ref>HD250G</ref>
+                     <descripcio>DISC DUR 250GB S-ATA 7200</descripcio>
+                     <cant>4</cant>
+                     <preu moneda="euro">120</preu>
+                     <IVAPercentatge>16,0</IVAPercentatge>
+                     <import moneda="euro">155.20</import>
+         </dadeslinia>
+             <totales>
+                    <baseimposable moneda="euro">990.00</baseimposable>
+                    <IVAPercentatge>16,0</IVAPercentatge>
+                    <totalIVA moneda="euro">155.20</totalIVA>
+                    <totalFactura moneda="euro">1145.20</totalFactura>
+             </totales>
+      </factura>

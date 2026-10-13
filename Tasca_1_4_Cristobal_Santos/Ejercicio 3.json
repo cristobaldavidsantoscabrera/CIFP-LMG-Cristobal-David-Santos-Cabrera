@@ -1,0 +1,51 @@
+{
+	"paucasesnoves":{
+			"ciclofp":{
+			"area":{
+				"nombrearea":"informatica"
+				},	
+			"fp":{
+				"nombrefp":"ASIX"
+				},
+			"modulo":{
+				"nombremodul":"Lenguajes de Marca y Sistemas de Gestion de la Información",
+				"fechainicio":"25 de septiembre de 2023",
+				"fechafin":"30 de junio de 2024",
+				"horassemana":4,
+				"obligatorio":true,
+				"estudiantes":[
+					{
+					"nombre":"Carles",
+					"apellidos":"Canals Gozálvez",
+					"nif":"12345678A",
+					"telefono":"971 00 00 00",
+					"correoelectronico":"cgc@paucasesnovescifp.cat",
+					"dirección":{
+						"calle":"C/ sense nombre",
+						"numero":1,
+						"ciudad":"Inca",
+						"codigopostal":"07300"
+						},
+					"ausencias":10,
+					"nota":"No adecuada"
+					},
+					{
+					"nombre":"Joana",
+					"apellidos":"Quetglas Caimari",
+					"nif":"87654321Z",
+					"telefono":"971 12 34 56",
+					"correoelectronico":"qcj@paucasesnovescifp.cat",
+					"dirección":{
+						"calle":"C/ sense sortida",
+						"numero":3,
+						"ciudad":"Sóller",
+						"codigopostal":"07100"
+						},
+					"ausencias":0,
+					"nota":"aprobado"
+					}
+					]
+			}
+		}
+	}
+}
