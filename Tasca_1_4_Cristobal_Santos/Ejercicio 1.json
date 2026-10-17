@@ -1,13 +1,13 @@
 {
 	"factura":{
-		"num":"001",
+		"num":1,
 		"dadesempresa":{
 			"nom":"empresa ficticia",
 			"adreca":{
 				"carrer":"Carrer Desconegut",
 				"nombre":1,
 				"ciutat":"Palma",
-				"codiPostal":"07001"
+				"codiPostal":7001
 				},
 			"CIF":"Q2826000",
 			"telefon":"971 12 34 56",
@@ -17,7 +17,7 @@
 			"formadpagament":"EFECTIU"
 			},
 		"dadesclient":{
-			"numclient":"001",
+			"numclient":1,
 			"nom":"Carles",
 			"cognom":"Canals Gozalvez",
 			"adresaenviament":{

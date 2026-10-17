@@ -27,21 +27,7 @@
 			{
 			"fitxer":"notes-presentacio.pdf",
 			"mida":"30K"
-			}
-				],
-		"actionsInterfaz":[
-			"Send",
-			"Más",
-			"Subrayar",
-			"Adjuntar",
-			"Enlace",
-			"Emojis",
-			"Drive",
-			"Imagenes",
-			"Programar",
-			"Borrar",
-			"Opciones",
-			"Papelera"
-			]
+   		   }
+		]
 	}
 }

@@ -25,16 +25,4 @@
            <fitxer>notes-presentacio.pdf</fitxer>
             <mida>30K</mida>
        </adjuntos>
-         <actionsInterfaz>Send</actionsInterfaz>
-         <actionsInterfaz>Más</actionsInterfaz>
-         <actionsInterfaz>Subrayar</actionsInterfaz>
-         <actionsInterfaz>Adjuntar</actionsInterfaz>
-         <actionsInterfaz>Enlace</actionsInterfaz>
-         <actionsInterfaz>Emojis</actionsInterfaz>
-         <actionsInterfaz>Drive</actionsInterfaz>
-         <actionsInterfaz>Imagenes</actionsInterfaz>
-         <actionsInterfaz>Programar</actionsInterfaz>
-         <actionsInterfaz>Borrar</actionsInterfaz>
-         <actionsInterfaz>Opciones</actionsInterfaz>
-         <actionsInterfaz>Papelera</actionsInterfaz>
 </correoelectronic>
