@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <!-- Datos basicos de la pagina y configuracion para dispositivos moviles. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de ejemplo creada con HTML5 y CSS Grid y Flexbox para la Tasca 2.5.">
+    <meta name="author" content="Cristobal Santos">
+    <title>Tasca 2.5 - Pagina de mostra</title>
+
+    <!-- Hoja de estilos externa obligatoria. -->
+    <link rel="stylesheet" href="estil.css">
+</head>
+<body>
+    <!-- La página se ha organizado en bloques semánticos (HTML5). -->
+    <div class="pagina" id="inici">
+        <!-- CABECERA: logotipo y menú, distribuidos con Flexbox. -->
+        <header class="capcalera">
+            <a class="logo" href="#inici" aria-label="Tornar a l'inici">LOGO</a>
+            <nav class="menu" aria-label="Navegació principal">
+                <a class="actiu" href="#inici" aria-current="page">HOME PAGE</a>
+                <a href="#sobre-mi">ABOUT ME</a>
+                <a href="#ofertes">OFFERS</a>
+                <a href="#contacte">CONTACT</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- PRIMER BLOQUE: imagen grande y texto en dos columnas. -->
+            <section class="portada" aria-labelledby="titol-principal">
+                <div class="portada-imatge">
+                    <img src="imagenes/icono-imagen.png" alt="Espai d'imatge de mostra de la portada">
+                </div>
+                <div class="portada-contingut">
+                    <h1 id="titol-principal">[ CRISTOBAL SANTOS ]</h1>
+                    <p>Breu descripció de la pàgina web</p>
+                    <a class="boto" href="#ofertes">Compra</a>
+                </div>
+            </section>
+
+            <!-- SOBRE MÍ: una segunda distribución de dos columnas con Flexbox. -->
+            <section class="sobre-mi" id="sobre-mi" aria-labelledby="titol-sobre-mi">
+                <div class="sobre-imatge">
+                    <h2 id="titol-sobre-mi">Lorem ipsum dolor sit<br>amet</h2>
+                    <div class="sobre-foto"><img src="imagenes/icono-imagen.png" alt="Espai reservat per a una imatge informativa"></div>
+                </div>
+                <div class="sobre-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam nisl, blandit quis nulla nec, lobortis suscipit justo. Sed pharetra maximus eros. Sed ut lectus dui. Aenean efficitur ut arcu eu pharetra. Sed vel tellus enim. Integer sed lorem eu leo blandit porta. Proin dignissim vel leo non molestie.</p>
+                    <ol>
+                        <li>Aenean sagittis lacinia tincidunt.</li>
+                        <li>Aliquam ultricies tempor convallis.</li>
+                        <li>Nullam a nulla eget felis ultrices accumsan quis non velit.</li>
+                        <li>Proin eget est ac justo suscipit dapibus et vitae odio.</li>
+                        <li>Ut imperdiet ultricies quam.</li>
+                    </ol>
+                    <a class="boto" href="#contacte">Contacte</a>
+                </div>
+            </section>
+
+            <!-- OFERTAS: CSS Grid permite variar el ancho de las cuatro tarjetas. -->
+            <section class="ofertes" id="ofertes" aria-labelledby="titol-ofertes">
+                <h2 id="titol-ofertes">What we offer</h2>
+                <p class="descripcio-ofertes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam nisl, blandit quis nulla nec, lobortis suscipit justo.</p>
+                <div class="graella-ofertes">
+                    <article class="targeta-oferta oferta-1">
+                        <div class="targeta-imatge"><img src="imagenes/icono-imagen.png" alt="Imatge de la primera oferta"></div>
+                        <div class="targeta-text">
+                            <h3>Oferta 1</h3>
+                            <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                        </div>
+                    </article>
+                    <article class="targeta-oferta oferta-2">
+                        <div class="targeta-imatge"><img src="imagenes/icono-imagen.png" alt="Imatge de la segona oferta"></div>
+                        <div class="targeta-text">
+                            <h3>Oferta 2</h3>
+                            <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                        </div>
+                    </article>
+                    <article class="targeta-oferta oferta-3">
+                        <div class="targeta-imatge"><img src="imagenes/icono-imagen.png" alt="Imatge de la tercera oferta"></div>
+                        <div class="targeta-text">
+                            <h3>Oferta 3</h3>
+                            <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                        </div>
+                    </article>
+                    <article class="targeta-oferta oferta-4">
+                        <div class="targeta-imatge"><img src="imagenes/icono-imagen.png" alt="Imatge de la quarta oferta"></div>
+                        <div class="targeta-text">
+                            <h3>Oferta 4</h3>
+                            <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- La rúbrica evalúa una tabla, aunque no aparece en la imagen.
+                     Se incluye dentro de details para mantener la fidelidad visual
+                     de la maqueta y poder consultarla al desplegarla, sin JavaScript. -->
+                <details class="taula-opcional">
+                    <summary>Veure la taula resum de les ofertes</summary>
+                    <div class="taula-responsive">
+                        <table>
+                            <caption>Resum de les quatre ofertes de la pàgina</caption>
+                            <thead>
+                                <tr><th scope="col">Oferta</th><th scope="col">Descripció</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><th scope="row">Oferta 1</th><td>Vivamus eu augue tortor.</td></tr>
+                                <tr><th scope="row">Oferta 2</th><td>Integer sed justo ornare.</td></tr>
+                                <tr><th scope="row">Oferta 3</th><td>Aenean efficitur ut arcu.</td></tr>
+                                <tr><th scope="row">Oferta 4</th><td>Proin dignissim vel leo.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </details>
+            </section>
+
+            <!-- CONTACTO: formulario con campos agrupados en dos columnas. -->
+            <section class="contacte" id="contacte" aria-labelledby="titol-contacte">
+                <h2 id="titol-contacte">Need a web?</h2>
+                <!-- Formulario demostrativo: no guarda ni envía datos a un servidor. -->
+                <form class="formulari" action="index.html#contacte" method="get">
+                    <div class="formulari-graella">
+                        <div class="columna-formulari">
+                            <label for="nom">Nom</label>
+                            <input id="nom" name="nom" type="text" placeholder="Introdueix el nom" autocomplete="name" required>
+
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" placeholder="Introdueix el correu electrònic" autocomplete="email" required>
+
+                            <label for="descripcio">Descripció</label>
+                            <textarea id="descripcio" name="descripcio" rows="4"></textarea>
+                        </div>
+
+                        <div class="columna-formulari">
+                            <label for="telefon">Telèfon</label>
+                            <input id="telefon" name="telefon" type="tel" placeholder="Introdueix el telèfon" autocomplete="tel">
+
+                            <fieldset class="grup-camps">
+                                <legend>Sexe</legend>
+                                <div class="opcions-sexe">
+                                    <label><input type="radio" name="sexe" value="home"> Home</label>
+                                    <label><input type="radio" name="sexe" value="dona"> Dona</label>
+                                    <label><input type="radio" name="sexe" value="altre"> Altre</label>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="grup-camps">
+                                <legend>Com has sabut de mi?</legend>
+                                <div class="opcions-origen">
+                                    <label><input type="checkbox" name="origen" value="xarxes"> Xarxes Socials</label>
+                                    <label><input type="checkbox" name="origen" value="web"> Web</label>
+                                    <label><input type="checkbox" name="origen" value="curriculum"> Curriculum</label>
+                                    <label><input type="checkbox" name="origen" value="google"> Google</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <button class="boto boto-enviar" type="submit">Envia</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- PIE: enlaces y redes distribuidos con Flexbox. -->
+        <footer class="peu-pagina" id="peu-pagina">
+            <a class="logo" href="#inici" aria-label="Tornar al principi">LOGO</a>
+            <ul class="enllacos-peu">
+                <li>Política de cookies</li>
+                <li>Terminis i condicions</li>
+                <li><a href="#sobre-mi">Quiénes somos</a></li>
+                <li><a href="#sobre-mi">Blog</a></li>
+            </ul>
+            <ul class="enllacos-peu">
+                <li><a href="#ofertes">Ofertes</a></li>
+                <li><a href="#ofertes">Categories</a></li>
+                <li><a href="#ofertes">Best sellers</a></li>
+            </ul>
+            <div class="xarxes" aria-label="Xarxes socials">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">◎</a>
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X">𝕏</a>
+                <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok">♪</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

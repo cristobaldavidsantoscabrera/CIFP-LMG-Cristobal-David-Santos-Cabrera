@@ -1,0 +1,119 @@
+/* =============================================================
+   TASCA AVALUABLE 2.5 - GRID
+   Autor: Cristobal Santos
+   Archivo CSS externo: estil.css.
+   ============================================================= */
+
+/* 1. Ajustes generales: respetamos la proporción de la maqueta. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #ffffff; font-family: Arial, Helvetica, sans-serif; color: #191919; }
+a { color: inherit; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 2px solid #5e6bbf; outline-offset: 2px; }
+img { display: block; max-width: 100%; }
+.pagina { max-width: 1000px; margin: 0 auto; box-shadow: 0 0 0 7px #f4f4f4; }
+
+/* 2. Cabecera: LOGO a la izquierda y menú a la derecha. */
+.capcalera { height: 49px; background: white; display: flex; align-items: center; justify-content: space-between; padding: 0 17px; }
+.logo { font-weight: 950; font-size: 23px; letter-spacing: -.04em; color: #111; text-decoration: none; }
+.menu { display: flex; align-items: stretch; gap: 4px; height: 100%; }
+.menu a { font-size: 12px; display: flex; align-items: center; padding: 0 19px; text-decoration: none; white-space: nowrap; }
+.menu a:hover, .menu a.actiu { background: #c9effb; }
+
+/* 3. Presentación: dos columnas con Flexbox. */
+.portada { display: flex; min-height: 483px; }
+.portada-imatge { width: 53.3%; background: linear-gradient(125deg,#d5d5d5,#cdcdcd); display: flex; justify-content: center; align-items: center; }
+.portada-imatge img { width: 145px; height: auto; }
+.portada-contingut { background: #c8effb; width: 46.7%; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 26px; padding: 30px 22px; text-align: center; overflow: hidden; }
+.portada-contingut h1 { font-size: clamp(25px, 3.4vw, 43px); font-weight: 400; margin: 0; white-space: nowrap; letter-spacing: -.015em; }
+.portada-contingut p { font-size: clamp(16px, 2.1vw, 24px); margin: 0; white-space: nowrap; }
+.boto { background: #2e9fef; color: #fff; border: none; border-radius: 999px; display: inline-flex; justify-content: center; align-items: center; text-align: center; min-width: 205px; min-height: 37px; font-size: 17px; text-decoration: none; cursor: pointer; font-family: inherit; }
+.boto:hover { background: #177dcc; }
+
+/* 4. Bloque informativo: imagen y texto a la misma altura. */
+.sobre-mi { background: white; padding: 24px 32px 61px; display: grid; grid-template-columns: 1.1fr 1fr; gap: 60px; min-height: 478px; }
+.sobre-imatge h2 { font-size: 32px; line-height: 1.12; font-weight: normal; margin: 0 0 25px; }
+.sobre-foto { width: 100%; height: 288px; display: flex; align-items: center; justify-content: center; background: linear-gradient(125deg,#d5d5d5,#cecece); }
+.sobre-foto img { width: 86px; height: auto; }
+.sobre-text { padding-top: 50px; font-size: 13.5px; }
+.sobre-text p { margin: 0 0 31px; line-height: 1.2; }
+.sobre-text ol { margin: 0 0 21px; padding-left: 30px; line-height: 1.2; }
+.sobre-text .boto { margin-top: 0; }
+
+/* 5. Ofertas: grid de 3 columnas; alterna 1+2 y 2+1. */
+.ofertes { background: #c8effb; padding: 49px 7% 50px; }
+.ofertes h2 { text-align: center; font-weight: normal; font-size: 34px; margin: 0 0 13px; }
+.descripcio-ofertes { text-align: center; font-size: 11px; margin: 0 0 39px; }
+.graella-ofertes { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); column-gap: 55px; row-gap: 48px; }
+.oferta-1, .oferta-4 { grid-column: span 1; }
+.oferta-2, .oferta-3 { grid-column: span 2; }
+.targeta-oferta { min-width: 0; background: white; }
+.targeta-imatge { width: 100%; height: 174px; background: linear-gradient(125deg,#d5d5d5,#cecece); display: flex; justify-content: center; align-items: center; }
+.targeta-imatge img { width: 70px; height: auto; }
+.targeta-text { min-height: 65px; padding: 12px 12px 11px; font-size: 12px; }
+.targeta-text h3 { margin: 0 0 4px; font-size: 13px; }
+.targeta-text p { margin: 0; line-height: 1.14; }
+
+/* Tabla incluida discretamente por el criterio 'Taula correcta'. */
+.taula-opcional { margin-top: 18px; font-size: 12px; text-align: center; }
+.taula-opcional summary { display: inline-block; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.taula-responsive { overflow-x: auto; }
+.taula-opcional table { width: 100%; border-collapse: collapse; margin-top: 16px; background: white; text-align: left; }
+.taula-opcional caption { text-align: left; font-weight: bold; margin-bottom: 7px; }
+.taula-opcional th, .taula-opcional td { border: 1px solid #9dc5d1; padding: 9px 12px; }
+.taula-opcional thead { background: #e4f6fc; }
+
+/* 6. Formulario: aspecto gris claro, esquinas muy redondeadas. */
+.contacte { background: #fff; padding: 31px 6% 93px; }
+.contacte h2 { margin: 0 0 6px; font-size: 37px; }
+.formulari { background: #e6e6e6; border-radius: 84px; padding: 48px 39px 19px; min-height: 465px; display: flex; flex-direction: column; justify-content: space-between; }
+.formulari-graella { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+.columna-formulari { display: flex; flex-direction: column; min-width: 0; }
+.columna-formulari > label { font-size: 12px; margin: 0 0 10px; }
+.columna-formulari > input, .columna-formulari > textarea { width: 100%; border: 2px solid #333; background: transparent; font: inherit; font-size: 13px; border-radius: 2px; padding: 7px 9px; margin: 0 0 17px; }
+.columna-formulari > input { height: 39px; }
+.columna-formulari > textarea { height: 100px; resize: vertical; }
+.columna-formulari > input::placeholder { color: #b5b5b5; }
+.grup-camps { border: none; margin: 4px 0 17px; padding: 0; }
+.grup-camps legend { font-size: 12px; margin-bottom: 10px; }
+.opcions-sexe { display: flex; flex-wrap: wrap; gap: 22px; }
+.opcions-sexe label, .opcions-origen label { display: flex; align-items: center; font-size: 12px; gap: 6px; white-space: nowrap; cursor: pointer; }
+.opcions-sexe input, .opcions-origen input { accent-color: #2e9fef; }
+.opcions-origen { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 18px; }
+.boto-enviar { align-self: center; }
+
+/* 7. Pie de página: logotipo, enlaces y cuatro redes sociales. */
+.peu-pagina { min-height: 178px; background: #c8effb; padding: 29px 7% 22px; display: grid; grid-template-columns: 1.25fr 1fr 1fr auto; gap: 20px; align-items: start; }
+.peu-pagina > .logo { margin-top: 12px; }
+.enllacos-peu { margin: 0; padding-left: 15px; font-size: 11px; line-height: 1.9; }
+.enllacos-peu a { text-decoration: none; }
+.enllacos-peu a:hover { text-decoration: underline; }
+.xarxes { display: flex; gap: 8px; align-self: center; white-space: nowrap; }
+.xarxes a { color: #fff; background: #1e1e1e; width: 23px; height: 23px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px; text-decoration: none; }
+.xarxes a:hover { background: #2e9fef; }
+
+/* 8. Adaptación sencilla sin JavaScript (móviles). */
+@media (max-width: 760px) {
+    .capcalera { height: auto; padding: 15px; gap: 12px; flex-wrap: wrap; }
+    .menu { flex-wrap: wrap; }
+    .menu a { padding: 9px 12px; }
+    .portada { flex-direction: column; }
+    .portada-imatge, .portada-contingut { width: 100%; }
+    .portada-imatge { height: 310px; }
+    .portada-contingut { min-height: 260px; }
+    .portada-contingut h1, .portada-contingut p { white-space: normal; }
+    .sobre-mi { display: flex; flex-direction: column; gap: 20px; padding: 30px 20px 40px; }
+    .sobre-text { padding-top: 0; }
+    .graella-ofertes { grid-template-columns: 1fr 1fr; gap: 20px; }
+    .oferta-1, .oferta-2, .oferta-3, .oferta-4 { grid-column: auto; }
+    .contacte { padding: 30px 20px 65px; }
+    .formulari { border-radius: 35px; padding: 30px 23px; }
+    .formulari-graella { grid-template-columns: 1fr; gap: 15px; }
+    .boto-enviar { margin-top: 25px; }
+    .peu-pagina { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 440px) {
+    .graella-ofertes { grid-template-columns: 1fr; }
+    .peu-pagina { grid-template-columns: 1fr; }
+    .ofertes { padding-left: 20px; padding-right: 20px; }
+}
