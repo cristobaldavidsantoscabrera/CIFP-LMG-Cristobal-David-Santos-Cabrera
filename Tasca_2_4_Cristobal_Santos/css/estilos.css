@@ -1,0 +1,139 @@
+/* ==============================================================
+   PERSPECTIVA 2026 — TASCA 2.4, LENGUAJES DE MARCAS (ASIX)
+   Autor: Cristobal Santos
+   Hoja de estilos EXTERNA, compartida por las cinco páginas.
+   ============================================================== */
+
+/* 1. Colores generales y ajustes básicos */
+:root {
+    --azul: #172d46;
+    --azul-claro: #244967;
+    --acento: #247e99;
+    --fondo: #f3f5f7;
+    --blanco: #ffffff;
+    --texto: #253349;
+    --secundario: #58697c;
+    --borde: #d8e0e8;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    background-color: var(--fondo);
+    color: var(--texto);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+/* Los enlaces son accesibles también al navegar con el teclado */
+a { color: #185f81; }
+a:hover { color: #10415e; }
+a:focus-visible { outline: 3px solid #e1a847; outline-offset: 3px; }
+
+h1, h2, h3 { line-height: 1.25; color: var(--azul); }
+h1 { font-size: clamp(2rem, 4vw, 3.2rem); }
+h2 { font-size: 1.55rem; }
+h3 { font-size: 1.2rem; }
+
+img { display: block; max-width: 100%; height: auto; }
+
+.contenedor { width: min(1100px, calc(100% - 36px)); margin: 0 auto; }
+
+/* 2. Cabecera del periódico: azul oscuro, blanco y gris */
+.cabecera { background-color: var(--azul); color: var(--blanco); }
+.cabecera-interior { text-align: center; padding: 32px 0 24px; }
+.marca { font-size: clamp(1.9rem, 4.5vw, 3.1rem); font-weight: 800; letter-spacing: 0.07em; margin: 0; }
+.marca a { color: var(--blanco); text-decoration: none; }
+.marca span { color: #b6d6e8; }
+.lema { margin: 5px 0 0; color: #d8e2ec; font-size: 0.93rem; }
+
+/* 3. Navegación entre las cinco páginas */
+.navegacion { background-color: var(--blanco); border-bottom: 1px solid var(--borde); }
+.enlaces-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 10px; }
+.enlaces-nav a {
+    display: inline-block;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--azul);
+    border-bottom: 3px solid transparent;
+}
+.enlaces-nav a:hover,
+.enlaces-nav a[aria-current="page"] { border-bottom-color: var(--acento); color: var(--acento); }
+
+/* 4. Presentación de la portada */
+.introduccion { padding: 48px 0 25px; max-width: 870px; }
+.introduccion h1 { margin: 8px 0 15px; }
+.sobrelinea { color: var(--acento); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; }
+.entrada { font-size: 1.15rem; color: #425269; max-width: 850px; }
+.cabecera-seccion { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 20px; }
+.cabecera-seccion p { color: var(--secundario); }
+
+/* 5. Noticias en tarjetas: usamos grid para ordenarlas */
+.rejilla-noticias { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; margin: 10px 0 42px; }
+.tarjeta-noticia { background: var(--blanco); border: 1px solid var(--borde); border-radius: 12px; overflow: hidden; box-shadow: 0 6px 18px rgba(23,45,70,0.06); }
+.imagen-enlace { display: block; background-color: #dbe5ed; }
+.tarjeta-noticia img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.tarjeta-cuerpo { padding: 22px 24px 25px; }
+.categoria { color: var(--acento); font-size: 0.77rem; font-weight: 800; letter-spacing: 0.07em; }
+.tarjeta-noticia h3 { margin: 10px 0; font-size: 1.45rem; }
+.tarjeta-noticia h3 a { color: var(--azul); text-decoration: none; }
+.tarjeta-noticia h3 a:hover { text-decoration: underline; }
+.tarjeta-noticia p { color: #4c5b6c; margin: 8px 0 15px; }
+.enlace-lectura { font-weight: bold; text-decoration: none; }
+
+/* 6. Tablas, listas y bloques de información */
+hr { border: 0; border-top: 1px solid var(--borde); margin: 32px 0; }
+.bloque-informativo { background: var(--blanco); border: 1px solid var(--borde); border-radius: 12px; padding: 20px 25px; margin: 25px 0; }
+.tabla-desplazable { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; min-width: 470px; }
+caption { text-align: left; color: var(--secundario); margin-bottom: 8px; font-style: italic; }
+th, td { border: 1px solid var(--borde); padding: 12px 14px; text-align: left; }
+th { background-color: var(--azul-claro); color: var(--blanco); }
+tbody tr:nth-child(even) { background: #edf2f7; }
+ul, ol { padding-left: 27px; }
+li { margin: 8px 0; }
+.lista-fuentes a { overflow-wrap: anywhere; }
+
+/* 7. Distribución y tipografía de los artículos individuales */
+.articulo { max-width: 900px; margin: 38px auto 26px; background: var(--blanco); border: 1px solid var(--borde); border-radius: 14px; padding: 34px 40px; }
+.articulo-cabecera h1 { margin: 10px 0 16px; }
+.metadatos { color: var(--secundario); font-size: 0.91rem; }
+.imagen-principal { margin: 26px 0 30px; }
+.imagen-principal img { width: 100%; border-radius: 9px; }
+figcaption { color: var(--secundario); font-size: 0.85rem; margin-top: 8px; text-align: center; }
+.articulo section { margin-top: 28px; }
+.articulo section h2 { border-left: 5px solid var(--acento); padding-left: 12px; }
+.articulo p { margin: 14px 0; }
+.nota { background: #eaf3f7; border-left: 4px solid var(--acento); padding: 16px 18px; margin: 20px 0; border-radius: 0 7px 7px 0; }
+blockquote { margin: 20px 0; padding: 12px 22px; border-left: 5px solid #66859c; background: #f1f4f7; font-size: 1.15rem; }
+blockquote p { font-style: italic; }
+blockquote footer { font-size: 0.85rem; color: var(--secundario); }
+.fuente-article { border-top: 1px solid var(--borde); padding-top: 12px; }
+.volver { margin: 0 0 42px; text-align: center; font-weight: bold; }
+
+/* 8. Vídeo oficial: mantiene la proporción horizontal */
+.video-responsive { position: relative; width: 100%; aspect-ratio: 16/9; background: #0a1828; border-radius: 8px; overflow: hidden; }
+.video-responsive iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.ayuda-video { color: var(--secundario); font-size: 0.9rem; }
+
+/* 9. Pie de página */
+.pie { background: var(--azul); color: #e3eaf2; margin-top: 38px; padding: 30px 0; }
+.pie-interior { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; }
+.pie p { margin: 0; font-size: 0.9rem; }
+.pie a { color: #d6edf8; }
+
+/* 10. Adaptación para móviles y pantallas pequeñas */
+@media (max-width: 720px) {
+    .rejilla-noticias { grid-template-columns: 1fr; }
+    .articulo { padding: 22px 17px; margin-top: 20px; }
+    .introduccion { padding-top: 27px; }
+    .enlaces-nav a { padding: 10px 8px; font-size: 0.86rem; }
+    .bloque-informativo { padding: 18px 15px; }
+    .pie-interior { display: block; }
+    .pie-interior p { margin-bottom: 12px; }
+}

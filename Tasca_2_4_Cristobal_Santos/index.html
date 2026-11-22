@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración del documento y metadatos para buscadores -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Noticias del año 2026 sobre archivos OVNI, GTA VI, Patrick Stewart y el informe mundial de The Economist.">
+    <meta name="author" content="Cristobal Santos">
+    <meta name="keywords" content="noticias 2026, actualidad, ciencia, videojuegos, cultura, mundo">
+    <title>Portada | Perspectiva 2026</title>
+
+    <!-- CSS independiente: compartimos los mismos estilos en todas las páginas -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="imagenes/favicon-perspectiva.png">
+</head>
+<body>
+    <!-- Cabecera común: identidad del periódico escolar -->
+    <header class="cabecera" id="inicio">
+        <div class="contenedor cabecera-interior">
+            <p class="marca"><a href="index.html">PERSPECTIVA <span>2026</span></a></p>
+            <p class="lema">Noticias para comprender nuestro tiempo</p>
+        </div>
+    </header>
+
+    <!-- Menú de navegación entre las cinco páginas HTML -->
+    <nav class="navegacion" aria-label="Navegación principal">
+        <div class="contenedor enlaces-nav">
+                <a href="index.html" aria-current="page">Portada</a>
+                <a href="ovnis.html">Ciencia</a>
+                <a href="gta6.html">Videojuegos</a>
+                <a href="Patric-Stewart.html">Cultura</a>
+                <a href="the-economist.html">Mundo 2027</a>
+        </div>
+    </nav>
+
+    <!-- Zona principal: contenido específico de esta página -->
+    <main class="contenedor" id="contenido">
+        <!-- Presentación de la portada y noticia destacada -->
+        <section class="introduccion" aria-labelledby="titulo-portada">
+            <p class="sobrelinea">EDICIÓN ESPECIAL · 2026</p>
+            <h1 id="titulo-portada">Cuatro noticias que invitan a mirar más allá del titular</h1>
+            <p class="entrada">Ciencia, videojuegos, cultura y futuro internacional: una selección personal de noticias de 2026, explicadas con mis propias palabras y sus fuentes originales.</p>
+        </section>
+
+        <section class="portada-noticias" id="noticias" aria-labelledby="ultimas-noticias">
+            <div class="cabecera-seccion">
+                <h2 id="ultimas-noticias">Las noticias seleccionadas</h2>
+                <p>Selecciona una noticia para leer el artículo completo.</p>
+            </div>
+
+            <!-- Cada article representa una noticia independiente -->
+            <div class="rejilla-noticias">
+                <article class="tarjeta-noticia destacada" id="ciencia">
+                    <a class="imagen-enlace" href="ovnis.html">
+                        <img src="imagenes/uap.jpg" alt="Ilustración de un objeto no identificado observado desde un radar" width="1200" height="675">
+                    </a>
+                    <div class="tarjeta-cuerpo">
+                        <span class="categoria">CIENCIA · 7 DE AGOSTO</span>
+                        <h3><a href="ovnis.html">Nuevos documentos oficiales sobre fenómenos OVNI</a></h3>
+                        <p>La quinta entrega de expedientes estadounidenses reúne memorandos, notas y dibujos. ¿Qué conocemos realmente de estos documentos?</p>
+                        <a class="enlace-lectura" href="ovnis.html">Leer noticia →</a>
+                    </div>
+                </article>
+
+                <article class="tarjeta-noticia" id="videojuegos">
+                    <a class="imagen-enlace" href="gta6.html">
+                        <img src="imagenes/gtavi.jpg" alt="Ilustración de un mando de videojuegos y una ciudad nocturna" width="1200" height="675">
+                    </a>
+                    <div class="tarjeta-cuerpo">
+                        <span class="categoria">VIDEOJUEGOS · 27 DE OCTUBRE</span>
+                        <h3><a href="gta6.html">GTA VI y el debate sobre las ausencias laborales</a></h3>
+                        <p>Una cifra de 1,5 millones de posibles ausencias circuló antes del lanzamiento. Analizamos qué decían las encuestas.</p>
+                        <a class="enlace-lectura" href="gta6.html">Leer noticia →</a>
+                    </div>
+                </article>
+
+                <article class="tarjeta-noticia" id="cultura">
+                    <a class="imagen-enlace" href="Patric-Stewart.html">
+                        <img src="imagenes/patrickS.jpeg" alt="Ilustración conmemorativa de un cielo estrellado y una nave espacial" width="1200" height="675">
+                    </a>
+                    <div class="tarjeta-cuerpo">
+                        <span class="categoria">CULTURA · 29 DE OCTUBRE</span>
+                        <h3><a href="Patric-Stewart.html">El mundo de Star Trek despide a Patrick Stewart</a></h3>
+                        <p>Compañeros de reparto homenajearon al intérprete del capitán Picard y recordaron su legado en la ciencia ficción.</p>
+                        <a class="enlace-lectura" href="Patric-Stewart.html">Leer noticia →</a>
+                    </div>
+                </article>
+
+                <article class="tarjeta-noticia" id="mundo">
+                    <a class="imagen-enlace" href="the-economist.html">
+                        <img src="imagenes/economist27.png" alt="Ilustración editorial original de un globo terrestre y símbolos del año 2027" width="1200" height="675">
+                    </a>
+                    <div class="tarjeta-cuerpo">
+                        <span class="categoria">MUNDO · 16 DE NOVIEMBRE</span>
+                        <h3><a href="the-economist.html">The Economist examina los desafíos de 2027</a></h3>
+                        <p>La revista presenta diez grandes asuntos para el próximo año: inteligencia artificial, conflictos y economía.</p>
+                        <a class="enlace-lectura" href="the-economist.html">Leer noticia →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Tabla resumen: ejemplo correcto de table, caption, thead y tbody -->
+        <section class="bloque-informativo" aria-labelledby="tabla-resumen">
+            <h2 id="tabla-resumen">Resumen de las fuentes consultadas</h2>
+            <p>Esta tabla permite comparar de forma rápida el tema, la fecha y el medio de cada noticia.</p>
+            <div class="tabla-desplazable">
+                <table>
+                    <thead>
+                        <tr><th scope="col">Categoría</th><th scope="col">Fecha de publicación</th><th scope="col">Medio</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Ciencia</td><td>7/08/2026</td><td>Live 5 News</td></tr>
+                        <tr><td>Videojuegos</td><td>27/10/2026</td><td>LifeBoxset</td></tr>
+                        <tr><td>Cultura</td><td>29/10/2026</td><td>Excélsior</td></tr>
+                        <tr><td>Mundo</td><td>16/11/2026</td><td>MVS Noticias</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Lista no numerada de enlaces externos: ampliación de información -->
+        <section class="bloque-informativo" aria-labelledby="fuentes-portada">
+            <h2 id="fuentes-portada">Fuentes y criterios de selección</h2>
+            <p>Elegí noticias diferentes entre sí porque me interesan tanto la tecnología y la ciencia como el cine y la actualidad mundial. Intento distinguir los hechos comprobados de las estimaciones y opiniones.</p>
+            <ul class="lista-fuentes">
+                <li><a href="https://www.live5news.com/2026/08/07/fifth-batch-ufo-files-released-contains-cia-notes-artistic-renderings/" target="_blank" rel="noopener noreferrer">Live 5 News — documentos UAP</a></li>
+                <li><a href="https://www.lifeboxset.com/ocio/gta-vi-ausencias/" target="_blank" rel="noopener noreferrer">LifeBoxset — ausencias por GTA VI</a></li>
+                <li><a href="https://www.excelsior.com.mx/espectaculos/descansa-paz-amigo-mio-actores-pelicula-star-trek-despiden-patrick-stewart" target="_blank" rel="noopener noreferrer">Excélsior — homenajes a Patrick Stewart</a></li>
+                <li><a href="https://mvsnoticias.com/mundo/2026/11/16/revela-the-economist-su-portada-2027-guerras-ia-y-crisis-globales-753728.html" target="_blank" rel="noopener noreferrer">MVS Noticias — informe sobre 2027</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Pie de página con autor, asignatura y retorno al inicio -->
+    <footer class="pie">
+        <div class="contenedor pie-interior">
+            <p><strong>Perspectiva 2026</strong><br>Trabajo de Lenguajes de Marcas — ASIX</p>
+            <p>Autor: Cristobal Santos · Tasca 2.4<br>Contenido propio basado en fuentes periodísticas enlazadas.</p>
+            <a href="#inicio">Volver arriba ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
